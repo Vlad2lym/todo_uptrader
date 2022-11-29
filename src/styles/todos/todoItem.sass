@@ -1,0 +1,104 @@
+.item
+    width: 90%
+    border: 2px solid gray
+    border-radius: 6px
+    padding: 10px
+    margin: 5px 0
+    cursor: grab
+    background-color: #f0f0f0
+
+.title_btns
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.btns
+    button
+        margin-right: 10px
+        font-size: 20px
+        width: 35px
+        height: 35px
+        border: 1px solid #000
+        border-radius: 10px 
+        cursor: pointer
+        &:hover
+            background-color: darken(#f5f5f5, 20%)
+
+.deadline
+    margin: 0px 5px
+
+.showDescription
+    cursor: pointer
+    &:hover
+        text-decoration: underline
+
+.descriptions
+    display: flex
+    flex-direction: column
+    h4, h3
+        margin: 5px 0px
+    hr
+        width: 100%
+
+.addTaskModal
+    margin: 20px auto
+    display: flex
+    flex-direction: column
+    width: 700px
+
+    input
+        width: 100%
+        border: 1px solid
+        border-radius: 10px
+        padding: 5px
+        margin: 5px
+        align-self: center
+
+    button
+        width: 50%
+        align-self: center
+        margin-top: 20px
+        font-size: 20px
+        background-color: #fff
+        border: 2px solid #fff
+        border-radius: 10px
+        cursor: pointer
+        &:hover
+            box-shadow: 3px 3px 5px #000
+            border-color: #d3d3d3
+
+.btn_addTask
+    align-self: flex-end
+    font-size: 20px
+    background-color: #fff
+    border: 2px solid #fff
+    border-radius: 10px
+    cursor: pointer
+    &:hover
+        box-shadow: 3px 3px 5px #000
+        border-color: #d3d3d3
+
+.task
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 30px
+    border: 1px solid
+    border-radius: 6px
+    margin-top: 10px
+    box-shadow: 3px 2px 5px rgba(#000, .7)
+
+    button
+        margin-right: 10px
+        font-size: 15px
+        width: 25px
+        height: 25px
+        border: 1px solid #000
+        border-radius: 10px 
+        cursor: pointer
+        &:hover
+            background-color: darken(#f5f5f5, 20%)
+
+.checkbox
+    margin-right: 5px
+    margin-left: 15px
