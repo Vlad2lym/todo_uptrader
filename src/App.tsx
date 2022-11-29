@@ -6,10 +6,6 @@ import Todos from './pages/todos';
 function App() {
   return (
     <BrowserRouter>
-        {/* <div className="App">
-            <Link to='/'><h2>project</h2></Link>
-            <Link to='/todo'>todo</Link>
-        </div>  */}
         <Routes> 
           <Route path='/' element={<Projects/>}/>
           <Route path='/project/:id' element={<Todos/>}/>

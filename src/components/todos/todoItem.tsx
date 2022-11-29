@@ -6,9 +6,7 @@ import { IBoard, ISubtask, ITodo } from '../../types/types'
 import MyModal from '../UI/myModal/myModal'
 import FixTodo from './fixTodo'
 import relativeTime from 'dayjs/plugin/relativeTime.js'
-import duration from 'dayjs/plugin/duration'
 dayjs.extend(relativeTime)
-dayjs.extend(duration)
 
 interface TodoItemProps {
     index: number,
